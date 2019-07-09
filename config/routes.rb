@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'tweets', to: 'tweets#index'
   root 'test#index'
 
   namespace :api do

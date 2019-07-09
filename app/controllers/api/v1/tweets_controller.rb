@@ -1,6 +1,7 @@
 class Api::V1::TweetsController < ApplicationController
   def create
-    Tweet.create(tweet_params)
+    tweet = Tweet.create(tweet_params)
+    render json: tweet
   end
 
   def index
