@@ -12,10 +12,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'webpacker'
 gem 'rack-cors'
-gem 'rename'
-gem 'react-rails'
 gem 'responders'
 
 group :development, :test do
